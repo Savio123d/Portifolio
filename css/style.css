@@ -1,0 +1,64 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+}
+
+.perfil-container {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #007bFF;
+    border-radius: 10px;
+    text-align: center;
+    background-color: gray;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.minhafoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bFF;
+}
+
+.nome {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.sobre-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.sobre {
+    text-align: justify;
+    border: 2px solid #007bFF;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.curriculo {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.curriculo a {
+    color: #007bFF;
+    text-decoration: none;
+}
+
+.curriculo a:hover {
+    text-decoration: underline;
+}
